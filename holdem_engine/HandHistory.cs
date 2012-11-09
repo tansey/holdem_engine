@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
+using PokerHandHistory;
 
 namespace holdem_engine
 {
@@ -273,6 +275,18 @@ namespace holdem_engine
         }
 
         #endregion
+
+		public PokerHand ToXmlHand()
+		{
+			PokerHand hand = new PokerHand()
+			{
+				Hero = players[Hero].Name,
+//				Blinds = this.predealActions.Where(s => 
+//				                                   s.ActionType == Action.ActionTypes.PostSmallBlind
+//				                                   || s.ActionType == Action.ActionTypes.);
+			};
+			return hand;
+		}
 
         public override string ToString()
         {
