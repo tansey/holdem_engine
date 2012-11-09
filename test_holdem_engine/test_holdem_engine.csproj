@@ -33,6 +33,13 @@
     <Reference Include="nunit.framework">
       <Private>False</Private>
     </Reference>
+    <Reference Include="HandHistory">
+      <HintPath>..\lib\HandHistory.dll</HintPath>
+    </Reference>
+    <Reference Include="HandEvaluator">
+      <HintPath>..\lib\HandEvaluator.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BetManagerTest.cs" />
@@ -40,6 +47,7 @@
     <Compile Include="HandEngineTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="SequencePlayer.cs" />
+    <Compile Include="HandHistoryXmlTest.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

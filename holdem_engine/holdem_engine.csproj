@@ -55,6 +55,8 @@
     <Compile Include="Seat.cs" />
     <Compile Include="TournamentHandHistory.cs" />
     <Compile Include="Winner.cs" />
+    <Compile Include="CardExtensions.cs" />
+    <Compile Include="ListExtensions.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

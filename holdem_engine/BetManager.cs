@@ -55,19 +55,15 @@ namespace holdem_engine
         {
             get
             {
-                if (numberPlayersCanStillBet <= 1 || (numberCalls == numberPlayersCanStillBet
-                && (numberCalls > 0 || numberAllIns > 0)))
+				if ((numberPlayersCanStillBet <= 1 && numberAllIns == 0) 
+			    || (numberPlayersCanStillBet == numberCalls && (numberCalls > 0 || numberAllIns > 0)))
                 {
                     numberCalls = 0;
                     round++;
                     if (round == 1 || bs != BettingStructure.Limit)
-                    {
                         minimumRaise = bigBlind;
-                    }
                     else
-                    {
                         minimumRaise = 2 * bigBlind;
-                    }
                     betLevel = 0;
                     return true;
                 }

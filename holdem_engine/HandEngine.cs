@@ -179,7 +179,8 @@ namespace holdem_engine
 
                 roundOver = betManager.RoundOver;
 
-                pIdx = playerIndices.Next;
+				if(!roundOver)
+                	pIdx = playerIndices.Next;
             }
             
         }

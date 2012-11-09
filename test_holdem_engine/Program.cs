@@ -12,12 +12,6 @@ namespace test_holdem_engine
             bmt.SetUp();
             bmt.TestBlinds();
 
-            //PotManagerTest pmt = new PotManagerTest();
-            //pmt.setup();
-            //pmt.TestTotal();
-            //pmt.setup();
-            //pmt.TestAllInSidePots();
-
             FastPotManagerTest fpmt = new FastPotManagerTest();
             fpmt.setup();
             fpmt.TestTotal();

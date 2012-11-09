@@ -280,12 +280,151 @@ namespace holdem_engine
 		{
 			PokerHand hand = new PokerHand()
 			{
-				Hero = players[Hero].Name,
-//				Blinds = this.predealActions.Where(s => 
-//				                                   s.ActionType == Action.ActionTypes.PostSmallBlind
-//				                                   || s.ActionType == Action.ActionTypes.);
+				Hero = players[Hero].Name
 			};
+
+			#region Convert blinds
+			var blindPostings = predealActions.Where(s => 
+			                          s.ActionType == Action.ActionTypes.PostSmallBlind
+			                          || s.ActionType == Action.ActionTypes.PostBigBlind
+			                          || s.ActionType == Action.ActionTypes.PostAnte);
+
+
+			hand.Blinds = new Blind[blindPostings.Count()];
+			for(int i =0 ; i < hand.Blinds.Length; i++)
+			{
+				var blindPosting = blindPostings.ElementAt(i);
+				hand.Blinds[i] = new Blind() {
+					AllIn = blindPosting.AllIn,
+					Amount = (decimal)blindPosting.Amount,
+					Player = blindPosting.Name,
+					Type = blindPosting.ActionType == Action.ActionTypes.PostBigBlind ? BlindType.BigBlind
+						: blindPosting.ActionType == Action.ActionTypes.PostSmallBlind ? BlindType.SmallBlind
+						: blindPosting.ActionType == Action.ActionTypes.PostAnte ? BlindType.Ante
+						: BlindType.None
+				};
+			}
+			#endregion
+
+			#region Context
+			hand.Context = new Context();
+			hand.Context.Ante = (decimal)Ante;
+
+			#region Betting Structure
+			if(BettingStructure == holdem_engine.BettingStructure.None)
+				throw new Exception("Unknown betting structure");
+			hand.Context.BettingType = this.BettingStructure == holdem_engine.BettingStructure.Limit ? BettingType.FixedLimit
+									: BettingStructure == holdem_engine.BettingStructure.NoLimit ? BettingType.NoLimit
+									: BettingType.PotLimit;
+			#endregion
+
+			hand.Context.BigBlind = (decimal)BigBlind;
+			hand.Context.Button = (int)Button;
+			hand.Context.CapAmount = 0; // no caps supported
+			hand.Context.CapAmountSpecified = false;
+			hand.Context.Capped = false;
+			hand.Context.Currency = "$";
+			hand.Context.Format = GameFormat.CashGame;
+			hand.Context.ID = HandNumber.ToString();
+			hand.Context.Online = false;
+			hand.Context.PokerVariant = PokerVariant.TexasHoldEm;
+			hand.Context.Site = "SimulatedPokerSite";
+			hand.Context.SmallBlind = (decimal)SmallBlind;
+			hand.Context.Table = TableName;
+			hand.Context.TimeStamp = DateTime.Now;
+			#endregion
+
+			#region HoleCards
+			hand.HoleCards = HoldemHand.Hand.Cards(HoleCards[Hero])
+											.Select(c => new PokerHandHistory.Card(c))
+											.ToArray();
+			#endregion
+
+			hand.Rake = 0m;
+			hand.Players = this.Players.Select((s,i) => new Player() { Name = s.Name, Seat = s.SeatNumber, Stack = (decimal)StartingChips[i] }).ToArray();
+
+			#region Rounds (actions and community cards)
+			hand.Rounds = new PokerHandHistory.Round[Math.Min(4, (int)this.CurrentRound)];
+			if(CurrentRound >= Round.Preflop)
+			{
+				hand.Rounds[0] = new PokerHandHistory.Round();
+				hand.Rounds[0].Actions = PreflopActions.Select(a => convertActionToXml(a)).ToArray();
+				if(CurrentRound >= Round.Flop)
+				{
+					hand.Rounds[1] = new PokerHandHistory.Round();
+					hand.Rounds[1].Actions = FlopActions.Select(a => convertActionToXml(a)).ToArray();
+					hand.Rounds[1].CommunityCards = HoldemHand.Hand.Cards (Flop)
+													.Select(c => new PokerHandHistory.Card(c))
+													.ToArray();
+
+					if(CurrentRound >= Round.Turn)
+					{
+						hand.Rounds[2] = new PokerHandHistory.Round();
+						hand.Rounds[2].Actions = TurnActions.Select(a => convertActionToXml(a)).ToArray();
+						hand.Rounds[2].CommunityCards = HoldemHand.Hand.Cards (Turn)
+							.Select(c => new PokerHandHistory.Card(c))
+							.ToArray();
+
+						if(CurrentRound >= Round.River)
+						{
+							hand.Rounds[3] = new PokerHandHistory.Round();
+							hand.Rounds[3].Actions = RiverActions.Select(a => convertActionToXml(a)).ToArray();
+							hand.Rounds[3].CommunityCards = HoldemHand.Hand.Cards (River)
+								.Select(c => new PokerHandHistory.Card(c))
+								.ToArray();
+						}
+					}
+				}
+			}
+			#endregion
+
+			#region Results
+			if(Winners.Count() > 0)
+			{
+				hand.Results = new HandResult[players.Length];
+				//int potNum = 0;
+				for(int i = 0; i < hand.Results.Length; i++)
+				{
+					HandResult hr = new HandResult(players[i].Name);
+					hr.HoleCards = HoldemHand.Hand.Cards(HoleCards[i])
+									.Select(c => new PokerHandHistory.Card(c))
+									.ToArray();
+					var wins = winners.Where(w => w.Player == hr.Player);
+					if(wins != null)
+						hr.WonPots = wins.Select(w => new PokerHandHistory.Pot() {
+							Amount = (decimal)w.Amount,
+							//Number = potNum++ // not able to handle this properly currently.
+						}).ToArray();
+
+					hand.Results[i] = hr;
+				}
+			}
+			#endregion
+
 			return hand;
+		}
+
+		private PokerHandHistory.Action convertActionToXml(Action a)
+		{
+			PokerHandHistory.Action result = new PokerHandHistory.Action();
+			result.Player = a.Name;
+			result.Amount = (decimal)a.Amount;
+			result.AllIn = a.AllIn;
+
+			switch (a.ActionType) {
+			case Action.ActionTypes.Bet: result.Type = PokerHandHistory.ActionType.Bet;
+				break;
+			case Action.ActionTypes.Raise: result.Type = PokerHandHistory.ActionType.Raise;
+				break;
+			case Action.ActionTypes.Check: result.Type = PokerHandHistory.ActionType.Check;
+				break;
+			case Action.ActionTypes.Call: result.Type = PokerHandHistory.ActionType.Call;
+				break;
+			case Action.ActionTypes.Fold: result.Type = PokerHandHistory.ActionType.Fold;
+				break;
+			default: throw new Exception("unknown post-blinds action type: " + a.ToString());
+			}
+			return result;
 		}
 
         public override string ToString()
