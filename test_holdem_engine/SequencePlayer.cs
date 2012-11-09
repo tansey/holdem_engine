@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using holdem_engine;
+using System.IO;
+using System.Xml.Serialization;
 
 namespace test_holdem_engine
 {
@@ -28,6 +30,20 @@ namespace test_holdem_engine
         public void GetAction(HandHistory history,
 		                      out holdem_engine.Action.ActionTypes type, out double amount)
         {
+			PokerHandHistory.PokerHand xml = history.ToXmlHand();
+			
+			PokerHandHistory.PokerHandXML hands = new PokerHandHistory.PokerHandXML(){
+				Hands = new PokerHandHistory.PokerHand[] { xml }
+			};
+
+			StringBuilder sb = new StringBuilder();
+			using(TextWriter writer = new StringWriter(sb))
+			{
+				XmlSerializer ser = new XmlSerializer(typeof(PokerHandHistory.PokerHandXML));
+				ser.Serialize(writer, hands);
+			}
+			
+			Console.WriteLine(sb.ToString());
             if (actions != null && curAction < actions.Length)
             {
 				holdem_engine.Action action = actions[curAction++];

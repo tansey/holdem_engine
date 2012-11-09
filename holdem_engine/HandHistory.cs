@@ -379,7 +379,7 @@ namespace holdem_engine
 			#endregion
 
 			#region Results
-			if(Winners.Count() > 0)
+			if(Winners != null && Winners.Count() > 0)
 			{
 				hand.Results = new HandResult[players.Length];
 				//int potNum = 0;
