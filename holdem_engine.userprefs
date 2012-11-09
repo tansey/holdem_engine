@@ -1,0 +1,55 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="test_holdem_engine/PotManagerTest.cs">
+    <Files>
+      <File FileName="holdem_engine/HandEngine.cs" Line="6" Column="11" />
+      <File FileName="holdem_engine/Action.cs" Line="5" Column="24" />
+      <File FileName="holdem_engine/AssemblyInfo.cs" Line="8" Column="71" />
+      <File FileName="holdem_engine/BetManager.cs" Line="5" Column="24" />
+      <File FileName="holdem_engine/BettingStructure.cs" Line="5" Column="24" />
+      <File FileName="holdem_engine/CachedHand.cs" Line="6" Column="24" />
+      <File FileName="holdem_engine/CircularList.cs" Line="5" Column="24" />
+      <File FileName="holdem_engine/HandHistory.cs" Line="5" Column="24" />
+      <File FileName="holdem_engine/IPlayer.cs" Line="5" Column="24" />
+      <File FileName="holdem_engine/MersenneTwister.cs" Line="78" Column="24" />
+      <File FileName="holdem_engine/Pot.cs" Line="5" Column="24" />
+      <File FileName="holdem_engine/PotManager.cs" Line="5" Column="24" />
+      <File FileName="holdem_engine/Round.cs" Line="5" Column="24" />
+      <File FileName="holdem_engine/Seat.cs" Line="5" Column="24" />
+      <File FileName="holdem_engine/TournamentHandHistory.cs" Line="5" Column="24" />
+      <File FileName="holdem_engine/Winner.cs" Line="5" Column="24" />
+      <File FileName="test_holdem_engine/BetManagerTest.cs" Line="8" Column="29" />
+      <File FileName="test_holdem_engine/FastPotManagerTest.cs" Line="8" Column="29" />
+      <File FileName="test_holdem_engine/HandEngineTest.cs" Line="8" Column="29" />
+      <File FileName="test_holdem_engine/PotManagerTest.cs" Line="5" Column="21" />
+      <File FileName="test_holdem_engine/Program.cs" Line="5" Column="29" />
+      <File FileName="test_holdem_engine/SequencePlayer.cs" Line="29" Column="42" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="holdem_engine" expanded="True" />
+          <Node name="test_holdem_engine" expanded="True">
+            <Node name="PotManagerTest.cs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="ConnectionManagerPad">
+        <State selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

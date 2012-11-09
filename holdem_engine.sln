@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "holdem_engine", "holdem_engine\holdem_engine.csproj", "{9FF1A3F9-40D7-419D-BC61-6BDF761AD084}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test_holdem_engine", "test_holdem_engine\test_holdem_engine.csproj", "{205BA877-30A2-432F-94BE-C64F70A24BA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Debug 2|Any CPU = Debug 2|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{205BA877-30A2-432F-94BE-C64F70A24BA2}.Debug 2|Any CPU.ActiveCfg = Debug|Any CPU
+		{205BA877-30A2-432F-94BE-C64F70A24BA2}.Debug 2|Any CPU.Build.0 = Debug|Any CPU
+		{205BA877-30A2-432F-94BE-C64F70A24BA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{205BA877-30A2-432F-94BE-C64F70A24BA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{205BA877-30A2-432F-94BE-C64F70A24BA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{205BA877-30A2-432F-94BE-C64F70A24BA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FF1A3F9-40D7-419D-BC61-6BDF761AD084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FF1A3F9-40D7-419D-BC61-6BDF761AD084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FF1A3F9-40D7-419D-BC61-6BDF761AD084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FF1A3F9-40D7-419D-BC61-6BDF761AD084}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = holdem_engine\holdem_engine.csproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9FF1A3F9-40D7-419D-BC61-6BDF761AD084}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>holdem_engine</RootNamespace>
+    <AssemblyName>holdem_engine</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="HandEvaluator">
+      <HintPath>..\lib\HandEvaluator.dll</HintPath>
+    </Reference>
+    <Reference Include="HandHistory">
+      <HintPath>..\lib\HandHistory.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Action.cs" />
+    <Compile Include="BetManager.cs" />
+    <Compile Include="BettingStructure.cs" />
+    <Compile Include="CachedHand.cs" />
+    <Compile Include="CircularList.cs" />
+    <Compile Include="HandEngine.cs" />
+    <Compile Include="HandHistory.cs" />
+    <Compile Include="IPlayer.cs" />
+    <Compile Include="MersenneTwister.cs" />
+    <Compile Include="Pot.cs" />
+    <Compile Include="PotManager.cs" />
+    <Compile Include="Round.cs" />
+    <Compile Include="Seat.cs" />
+    <Compile Include="TournamentHandHistory.cs" />
+    <Compile Include="Winner.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
