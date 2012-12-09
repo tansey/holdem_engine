@@ -427,8 +427,13 @@ namespace holdem_engine
 			return result;
 		}
 
-        public override string ToString()
-        {
+		public override string ToString()
+		{
+			return ToString(false);
+		}
+
+		public string ToString(bool showAllHolecards)
+		{
             StringBuilder result = new StringBuilder();
             
                 result.Append(string.Format("{0} Game #{1}:  Hold'em ", site, handNumber));
@@ -461,7 +466,8 @@ namespace holdem_engine
 
                 for (int i = 0; i < Players.Length; i++)
                     if (HoleCards[i] != 0UL)
-                        result.AppendLine(string.Format("Dealt to {0} [{1}]", Players[i].Name,
+						if (showAllHolecards || i == this.Hero)
+                        	result.AppendLine(string.Format("Dealt to {0} [{1}]", Players[i].Name,
                                                         HoldemHand.Hand.MaskToString(HoleCards[i])));
 
                 foreach (Action action in PreflopActions)
@@ -501,8 +507,9 @@ namespace holdem_engine
                     result.AppendLine("*** Show Down ***");
                     for (int i = 0; i < players.Length; i++)
                         if (!Folded[i])
-                            result.AppendLine(string.Format("{0} shows {1}", Players[i].Name,
-                                HoldemHand.Hand.DescriptionFromMask(Flop | Turn | River | hc[i])));
+						result.AppendLine(string.Format("{0} shows [{1}], {2}", Players[i].Name,
+						        HoldemHand.Hand.MaskToString(HoleCards[i]),
+                                HoldemHand.Hand.DescriptionFromMask(Flop | Turn | River | hc[i]).ToLower()));
                 }
 
                 if (Winners != null)
