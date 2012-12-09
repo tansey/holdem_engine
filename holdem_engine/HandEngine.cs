@@ -22,6 +22,7 @@ namespace holdem_engine
         private int utgIdx;
         private int bbIdx;
         private CachedHand cache;
+		private bool _catchUp;
         #endregion
 
         #region Constructors
@@ -36,19 +37,25 @@ namespace holdem_engine
             PlayHand(handHistory);
         }
 
-        public void PlayHand(HandHistory handHistory)
+        public void PlayHand(HandHistory handHistory, bool catchUp = false)
         {
+			_catchUp = catchUp;
+
             #region Hand Setup
             seats = handHistory.Players;
-            handHistory.HoleCards = new ulong[seats.Length];
-            handHistory.DealtCards = 0UL;
-            handHistory.Flop = 0UL;
-            handHistory.Turn = 0UL;
-            handHistory.River = 0UL;
+
+			// Reset the cards unless we already have some.
+			if(!catchUp)
+			{
+	            handHistory.HoleCards = new ulong[seats.Length];
+	            handHistory.DealtCards = 0UL;
+	            handHistory.Flop = 0UL;
+	            handHistory.Turn = 0UL;
+	            handHistory.River = 0UL;
+			}
 
             //Setup the hand history
             this.history = handHistory;
-
 
             //Create a new map from player names to player chips for the BetManager
             Dictionary<string, double> namesToChips = new Dictionary<string, double>();
@@ -56,9 +63,6 @@ namespace holdem_engine
             //Create a new list of players for the PlayerManager
             playerIndices = new CircularList<int>();
             playerIndices.Loop = true;
-
-            //Create a map of player names to their seat numbers
-            //seatNumbers = new Dictionary<string, int>();
 
             for (int i = 0; i < seats.Length; i++)
             {
@@ -196,10 +200,6 @@ namespace holdem_engine
 
         private void AddAction(int pIdx, Action action, List<Action> curRoundActions)
         {
-            //if (action.ActionType == Action.ActionTypes.Raise && curRoundActions.Count == 0 && history.CurrentRound != Round.Preflop)
-                //Console.WriteLine("");
-
-            //Action unvalidatedAction = new Action(action.Name, action.ActionType, action.Amount, action.AllIn);
             action = betManager.GetValidatedAction(action);
             
             betManager.Commit(action);
@@ -272,6 +272,7 @@ namespace holdem_engine
         /// </summary>
         public void DealHoleCards()
         {
+
             for (int i = 0; i < seats.Length; i++)
             {
                 history.HoleCards[i] = cache != null ? cache.HoleCards[i] : Hand.RandomHand(history.DealtCards, 2);
