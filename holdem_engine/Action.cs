@@ -145,7 +145,7 @@ namespace holdem_engine
         #region String Conversion Methods
         /// <summary>
         /// Converts the action object to its string representation.  The strings conform
-        /// to PokerStars hand history conventions as of August 02, 2008.
+        /// to PokerStars hand _history conventions as of August 02, 2008.
         /// </summary>
         /// <returns></returns>
         public override string ToString()
@@ -180,7 +180,7 @@ namespace holdem_engine
 
         /// <summary>
         /// Converts the action object to its string representation.  The strings conform
-        /// to PokerStars hand history conventions as of August 02, 2008.
+        /// to PokerStars hand _history conventions as of August 02, 2008.
         /// </summary>
         /// <returns></returns>
         public string ToNoDollarSignString()

@@ -7,7 +7,7 @@ using PokerHandHistory;
 namespace holdem_engine
 {
     /// <summary>
-    /// An accessor class which contains the history of a hand.
+    /// An accessor class which contains the _history of a hand.
     /// 
     /// Author: Wesley Tansey
     /// </summary>
