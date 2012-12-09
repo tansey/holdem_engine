@@ -7,21 +7,25 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test_holdem_engine", "test_
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug 2|Any CPU = Debug 2|Any CPU
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-		Debug 2|Any CPU = Debug 2|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FF1A3F9-40D7-419D-BC61-6BDF761AD084}.Debug 2|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FF1A3F9-40D7-419D-BC61-6BDF761AD084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FF1A3F9-40D7-419D-BC61-6BDF761AD084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FF1A3F9-40D7-419D-BC61-6BDF761AD084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FF1A3F9-40D7-419D-BC61-6BDF761AD084}.Release|Any CPU.Build.0 = Release|Any CPU
 		{205BA877-30A2-432F-94BE-C64F70A24BA2}.Debug 2|Any CPU.ActiveCfg = Debug|Any CPU
 		{205BA877-30A2-432F-94BE-C64F70A24BA2}.Debug 2|Any CPU.Build.0 = Debug|Any CPU
 		{205BA877-30A2-432F-94BE-C64F70A24BA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{205BA877-30A2-432F-94BE-C64F70A24BA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{205BA877-30A2-432F-94BE-C64F70A24BA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{205BA877-30A2-432F-94BE-C64F70A24BA2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9FF1A3F9-40D7-419D-BC61-6BDF761AD084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9FF1A3F9-40D7-419D-BC61-6BDF761AD084}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9FF1A3F9-40D7-419D-BC61-6BDF761AD084}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9FF1A3F9-40D7-419D-BC61-6BDF761AD084}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = holdem_engine\holdem_engine.csproj

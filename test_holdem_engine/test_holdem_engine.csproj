@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -29,10 +29,10 @@
     <ConsolePause>False</ConsolePause>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
     <Reference Include="nunit.framework">
-      <Private>False</Private>
+      <HintPath>..\packages\NUnit.2.6.2\lib\nunit.framework.dll</HintPath>
     </Reference>
+    <Reference Include="System" />
     <Reference Include="HandHistory">
       <HintPath>..\lib\HandHistory.dll</HintPath>
     </Reference>
@@ -45,6 +45,7 @@
     <Compile Include="BetManagerTest.cs" />
     <Compile Include="FastPotManagerTest.cs" />
     <Compile Include="HandEngineTest.cs" />
+    <Compile Include="HandServerTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="SequencePlayer.cs" />
     <Compile Include="HandHistoryXmlTest.cs" />
@@ -55,5 +56,8 @@
       <Project>{9FF1A3F9-40D7-419D-BC61-6BDF761AD084}</Project>
       <Name>holdem_engine</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>

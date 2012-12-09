@@ -58,7 +58,7 @@ namespace test_holdem_engine
             };
             seqPlayers[4].Brain = new SequencePlayer(actions4);
 
-            //seq2 is on buttonIdx (seat 3), seq3 is small blind ($1), seq4 is big blind ($2), hand number is 42
+            //seq2 is on _buttonIdx (seat 3), seq3 is small blind ($1), seq4 is big blind ($2), hand number is 42
             HandHistory results = new TournamentHandHistory(seqPlayers, 42, 3, blinds, 0, BettingStructure.NoLimit);
             engine.PlayHand(results);
             

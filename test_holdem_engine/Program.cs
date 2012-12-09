@@ -8,19 +8,23 @@ namespace test_holdem_engine
     {
         public static void Main(string[] args)
         {
-            BetManagerTest bmt = new BetManagerTest();
-            bmt.SetUp();
-            bmt.TestBlinds();
+            //BetManagerTest bmt = new BetManagerTest();
+            //bmt.SetUp();
+            //bmt.TestBlinds();
 
-            FastPotManagerTest fpmt = new FastPotManagerTest();
-            fpmt.setup();
-            fpmt.TestTotal();
-            fpmt.setup();
-            fpmt.TestAllInSidePots();
+            //FastPotManagerTest fpmt = new FastPotManagerTest();
+            //fpmt.setup();
+            //fpmt.TestTotal();
+            //fpmt.setup();
+            //fpmt.TestAllInSidePots();
 
-            HandEngineTest test = new HandEngineTest();
-            test.SetUp();
-            test.TestPlayHand();
+            //HandEngineTest test = new HandEngineTest();
+            //test.SetUp();
+            //test.TestPlayHand();
+
+            HandServerTest stest = new HandServerTest();
+            stest.SetUp();
+            stest.TestFullHand();
         }
     }
 }
