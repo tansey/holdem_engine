@@ -40,13 +40,13 @@
       <HintPath>..\lib\HandEvaluator.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BetManagerTest.cs" />
     <Compile Include="FastPotManagerTest.cs" />
     <Compile Include="HandEngineTest.cs" />
     <Compile Include="HandServerTest.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="SequencePlayer.cs" />
     <Compile Include="HandHistoryXmlTest.cs" />
   </ItemGroup>

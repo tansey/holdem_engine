@@ -189,7 +189,6 @@ namespace holdem_engine
                 case Action.ActionTypes.Call: return validateCall(action);
                 case Action.ActionTypes.Bet: return validateBet(action);
                 case Action.ActionTypes.Raise: return validateRaise(action);
-                //case Action.ActionTypes.AllIn: return validateAllIn(action);
                 default: return validateFold(action);
             }
         }
@@ -200,6 +199,9 @@ namespace holdem_engine
                 return validateFold(action);
 
             action.Amount = Math.Min(startingChips[action.Name], ante);
+
+			if (action.Amount + committedTotal[action.Name] >= startingChips[action.Name])
+				return validateAllIn(action);
 
             return action;
         }
@@ -214,6 +216,11 @@ namespace holdem_engine
 
             action.Amount = Math.Min(startingChips[action.Name], smallBlind);
             action.ActionType = Action.ActionTypes.PostSmallBlind;
+
+			if (action.Amount + committedTotal[action.Name] >= startingChips[action.Name])
+				return validateAllIn(action);
+
+
             return action;
         }
 
@@ -231,6 +238,10 @@ namespace holdem_engine
             action.ActionType = Action.ActionTypes.PostBigBlind;
 
             action.Amount = Math.Min(startingChips[action.Name], bigBlind);
+
+			if (action.Amount + committedTotal[action.Name] >= startingChips[action.Name])
+				return validateAllIn(action);
+
             
             numberBlindsPosted++;
             return action;
@@ -269,7 +280,7 @@ namespace holdem_engine
 
             action.Amount = mostCommitted - committedTotal[action.Name];
 
-            if (action.Amount + committedTotal[action.Name] > startingChips[action.Name])
+            if (action.Amount + committedTotal[action.Name] >= startingChips[action.Name])
                 return validateAllIn(action);
 
             return action;

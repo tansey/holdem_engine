@@ -47,8 +47,6 @@ namespace holdem_engine
         /// <param name="handHistory">An new hand _history with the list of players and the game parameters.</param>
         public void PlayHand(HandHistory handHistory)
         {
-			_catchUp = catchUp;
-
             #region Hand Setup
             _seats = handHistory.Players;
             handHistory.HoleCards = new ulong[_seats.Length];
@@ -203,7 +201,7 @@ namespace holdem_engine
 
         private void AddAction(int pIdx, Action action, List<Action> curRoundActions)
         {
-            action = betManager.GetValidatedAction(action);
+            action = _betManager.GetValidatedAction(action);
             
             _betManager.Commit(action);
             curRoundActions.Add(action);

@@ -23,6 +23,8 @@ namespace holdem_engine
         int _bbIdx;
         CachedHand _cache;
 
+		public IEnumerable<Action> ValidNextActions { get; set;	}
+
         public HandServer()
         {
         }
@@ -33,8 +35,12 @@ namespace holdem_engine
 
             #region Restore hand context
             _seats = new Seat[savedHand.Players.Length];
+			var orderedPlayers = savedHand.Players.OrderBy(p => p.Seat);
             for (int i = 0; i < _seats.Length; i++)
-                _seats[i] = new Seat(savedHand.Players[i].Seat, savedHand.Players[i].Name, (double)savedHand.Players[i].Stack);
+			{
+				var player = orderedPlayers.ElementAt(i);
+                _seats[i] = new Seat(player.Seat, player.Name, (double)player.Stack);
+			}
 
             ulong handNum = ulong.Parse(savedHand.Context.ID);
             uint button = (uint)savedHand.Context.Button;
@@ -101,9 +107,10 @@ namespace holdem_engine
             if (_betManager.CanStillBet > 1)
             {
                 if(savedHand.Rounds == null || savedHand.Rounds.Length == 0)
-                    throw new Exception("Restore ends at start of preflop actions");
-
-                if (!restoreBets(savedHand.Rounds[0].Actions, _history.PreflopActions))
+					savedHand.Rounds = new PokerHandHistory.Round[] { new PokerHandHistory.Round(){Actions = new PokerHandHistory.Action[0]} };
+				else if(savedHand.Rounds[0].Actions == null)
+					savedHand.Rounds[0].Actions = new PokerHandHistory.Action[0];
+    			if (!restoreBets(savedHand.Rounds[0].Actions, _history.PreflopActions))
                     return _history;
             }
             if (_betManager.In <= 1)
@@ -119,7 +126,9 @@ namespace holdem_engine
             if (_betManager.CanStillBet > 1)
             {
                 if (savedHand.Rounds.Length < 2)
-                    throw new Exception("Restore ends at start of flop actions");
+					savedHand.Rounds = new PokerHandHistory.Round[]{savedHand.Rounds[0], new PokerHandHistory.Round(){Actions = new PokerHandHistory.Action[0]}};
+				else if(savedHand.Rounds[1].Actions == null)
+					savedHand.Rounds[1].Actions = new PokerHandHistory.Action[0];
 
                 if (!restoreBets(savedHand.Rounds[1].Actions, _history.FlopActions))
                     return _history;
@@ -137,7 +146,9 @@ namespace holdem_engine
             if (_betManager.CanStillBet > 1)
             {
                 if (savedHand.Rounds.Length < 3)
-                    throw new Exception("Restore ends at start of turn actions");
+					savedHand.Rounds = new PokerHandHistory.Round[]{savedHand.Rounds[0], savedHand.Rounds[1], new PokerHandHistory.Round(){Actions = new PokerHandHistory.Action[0]}};
+				else if(savedHand.Rounds[2].Actions == null)
+					savedHand.Rounds[2].Actions = new PokerHandHistory.Action[0];
 
                 if (!restoreBets(savedHand.Rounds[2].Actions, _history.TurnActions))
                     return _history;
@@ -155,7 +166,9 @@ namespace holdem_engine
             if (_betManager.CanStillBet > 1)
             {
                 if (savedHand.Rounds.Length < 4)
-                    throw new Exception("Restore ends at start of turn actions");
+					savedHand.Rounds = new PokerHandHistory.Round[]{savedHand.Rounds[0], savedHand.Rounds[1], savedHand.Rounds[2], new PokerHandHistory.Round(){Actions = new PokerHandHistory.Action[0]}};
+				else if(savedHand.Rounds[3].Actions == null)
+					savedHand.Rounds[3].Actions = new PokerHandHistory.Action[0];
 
                 if (!restoreBets(savedHand.Rounds[3].Actions, _history.RiverActions))
                     return _history;
@@ -229,9 +242,38 @@ namespace holdem_engine
                 throw new Exception("Actions left after round over.");
 
             if (!roundOver)
-                throw new Exception("Restore ends in middle of a betting round");
+			{
+                List<Action> validActions = new List<Action>();
+				var name = _seats[pIdx].Name;
+				Action fold = new Action(name, Action.ActionTypes.Fold);
+				fold = _betManager.GetValidatedAction(fold);
+				validActions.Add(fold);//may be check or fold
+				if(fold.ActionType == Action.ActionTypes.Fold)
+				{
+					Action call = new Action(name, Action.ActionTypes.Call);
+					call = _betManager.GetValidatedAction(call);
+					validActions.Add(call);
+				}
+				Action minRaise = new Action(name, Action.ActionTypes.Raise, 0);
+				minRaise = _betManager.GetValidatedAction(minRaise);
+				if(minRaise.ActionType == Action.ActionTypes.Bet || minRaise.ActionType == Action.ActionTypes.Raise)
+				{
+					validActions.Add(minRaise);
+					// In no-limit and pot-limit, we return the valid raises as a pair of
+					// (min, max) bets.
+					if(!minRaise.AllIn && _history.BettingStructure != BettingStructure.Limit)
+					{
+						Action maxRaise = new Action(name, Action.ActionTypes.Raise, _seats[pIdx].Chips);
+						maxRaise = _betManager.GetValidatedAction(maxRaise);
+						if(maxRaise.Amount > minRaise.Amount)
+							validActions.Add(maxRaise);
+					}
+				}
+				ValidNextActions = validActions;
+				return false;
+			}
 
-            return roundOver;
+            return true;
         }
 
         private int GetFirstToAct(bool preflop)
@@ -252,7 +294,12 @@ namespace holdem_engine
                     if (ante != null)
                         AddAction(i, new Action(_seats[i].Name, Action.ActionTypes.PostAnte, _history.Ante), _history.PredealActions);
                     else
-                        throw new Exception("Restore ends at ante for player: " + _seats[i].Name);
+					{
+					 	var nextAction = new Action(_seats[i].Name, Action.ActionTypes.PostAnte, _history.Ante);
+						nextAction = _betManager.GetValidatedAction(nextAction);
+						ValidNextActions = new Action[]{nextAction};
+						return false;
+					}
                 }
             _bbIdx = _playerIndices.Next;
 
@@ -268,7 +315,12 @@ namespace holdem_engine
                               new Action(_seats[_bbIdx].Name, Action.ActionTypes.PostSmallBlind, _history.SmallBlind),
                               _history.PredealActions);
                     else
-                        throw new Exception("Restore ends at small blind");
+					{
+						var nextAction = new Action(_seats[_bbIdx].Name, Action.ActionTypes.PostSmallBlind, _history.SmallBlind);
+						nextAction = _betManager.GetValidatedAction(nextAction);
+						ValidNextActions = new Action[]{nextAction};
+						return false;
+					}
                 }
                 _bbIdx = _playerIndices.Next;
             }
@@ -281,7 +333,12 @@ namespace holdem_engine
                               new Action(_seats[_bbIdx].Name, Action.ActionTypes.PostBigBlind, _history.BigBlind),
                               _history.PredealActions);
                 else
-                    throw new Exception("Restore ends at big blind");
+				{
+					var nextAction = new Action(_seats[_bbIdx].Name, Action.ActionTypes.PostBigBlind, _history.BigBlind);
+					nextAction = _betManager.GetValidatedAction(nextAction);
+					ValidNextActions = new Action[]{nextAction};
+					return false;
+				}
             }
 
             return true;
