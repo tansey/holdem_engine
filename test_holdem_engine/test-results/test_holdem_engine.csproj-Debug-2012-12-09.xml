@@ -211,6 +211,20 @@ Execution time: 0.78ms</Message>
 
 Execution time: 0.76ms</Message>
     </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-12-09T19:03:58</TestDate>
+      <Passed>12</Passed>
+      <Errors>0</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>Test successful
+
+Execution time: 0.80ms</Message>
+    </UnitTestResult>
   </Results>
   <Tests>
     <TestRecord Name="test_holdem_engine">
@@ -424,6 +438,20 @@ Execution time: 0.77ms</Message>
           <Message>Test successful
 
 Execution time: 0.76ms</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-12-09T19:03:58</TestDate>
+          <Passed>12</Passed>
+          <Errors>0</Errors>
+          <Failures>0</Failures>
+          <Inconclusive>0</Inconclusive>
+          <NotRunnable>0</NotRunnable>
+          <Skipped>0</Skipped>
+          <Ignored>0</Ignored>
+          <Time />
+          <Message>Test successful
+
+Execution time: 0.79ms</Message>
         </UnitTestResult>
       </Results>
       <Tests>
@@ -666,6 +694,20 @@ Execution time: 0.34ms</Message>
               <Message>Test successful
 
 Execution time: 0.24ms</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-12-09T19:03:58</TestDate>
+              <Passed>5</Passed>
+              <Errors>0</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.23ms</Message>
             </UnitTestResult>
           </Results>
           <Tests>
@@ -943,6 +985,22 @@ Execution time: 0.03ms</Message>
                   <ConsoleOutput />
                   <ConsoleError />
                 </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-12-09T19:03:58</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.02ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
               </Results>
               <Tests />
             </TestRecord>
@@ -1206,6 +1264,22 @@ Execution time: 0.00ms</Message>
                 </UnitTestResult>
                 <UnitTestResult>
                   <TestDate>2012-12-09T19:01:36</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-12-09T19:03:58</TestDate>
                   <Passed>1</Passed>
                   <Errors>0</Errors>
                   <Failures>0</Failures>
@@ -1497,6 +1571,22 @@ Execution time: 0.00ms</Message>
                   <ConsoleOutput />
                   <ConsoleError />
                 </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-12-09T19:03:58</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
               </Results>
               <Tests />
             </TestRecord>
@@ -1760,6 +1850,22 @@ Execution time: 0.00ms</Message>
                 </UnitTestResult>
                 <UnitTestResult>
                   <TestDate>2012-12-09T19:01:36</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-12-09T19:03:58</TestDate>
                   <Passed>1</Passed>
                   <Errors>0</Errors>
                   <Failures>0</Failures>
@@ -2051,6 +2157,22 @@ Execution time: 0.00ms</Message>
                   <ConsoleOutput />
                   <ConsoleError />
                 </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-12-09T19:03:58</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
               </Results>
               <Tests />
             </TestRecord>
@@ -2284,6 +2406,20 @@ Execution time: 0.06ms</Message>
             </UnitTestResult>
             <UnitTestResult>
               <TestDate>2012-12-09T19:01:36</TestDate>
+              <Passed>2</Passed>
+              <Errors>0</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.05ms</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-12-09T19:03:58</TestDate>
               <Passed>2</Passed>
               <Errors>0</Errors>
               <Failures>0</Failures>
@@ -2558,6 +2694,22 @@ Execution time: 0.01ms</Message>
                 </UnitTestResult>
                 <UnitTestResult>
                   <TestDate>2012-12-09T19:01:36</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-12-09T19:03:58</TestDate>
                   <Passed>1</Passed>
                   <Errors>0</Errors>
                   <Failures>0</Failures>
@@ -2849,6 +3001,22 @@ Execution time: 0.00ms</Message>
                   <ConsoleOutput />
                   <ConsoleError />
                 </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-12-09T19:03:58</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
               </Results>
               <Tests />
             </TestRecord>
@@ -3093,6 +3261,20 @@ Execution time: 0.21ms</Message>
               <Message>Test successful
 
 Execution time: 0.21ms</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-12-09T19:03:58</TestDate>
+              <Passed>1</Passed>
+              <Errors>0</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.22ms</Message>
             </UnitTestResult>
           </Results>
           <Tests>
@@ -7011,6 +7193,236 @@ Seq4 collected 207 from Main pot
 </ConsoleOutput>
                   <ConsoleError />
                 </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-12-09T19:03:58</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.21ms</Message>
+                  <ConsoleOutput>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;PokerHandXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Hands&gt;
+    &lt;Blinds Player="Seq3" Type="SmallBlind" Amount="1" /&gt;
+    &lt;Blinds Player="Seq4" Type="BigBlind" Amount="2" /&gt;
+    &lt;HoleCards Rank="Five" Suit="Hearts" /&gt;
+    &lt;HoleCards Rank="Ten" Suit="Clubs" /&gt;
+    &lt;Rounds /&gt;
+    &lt;Context Online="false" Site="SimulatedPokerSite" Currency="$" ID="42" TimeStamp="2012-12-09T19:03:59.725133-06:00" Format="CashGame" Button="3" BigBlind="2" SmallBlind="1" BettingType="NoLimit" PokerVariant="TexasHoldEm" /&gt;
+    &lt;Players Name="Seq0" Stack="200" Seat="1" /&gt;
+    &lt;Players Name="Seq1" Stack="200" Seat="2" /&gt;
+    &lt;Players Name="Seq2" Stack="200" Seat="3" /&gt;
+    &lt;Players Name="Seq3" Stack="200" Seat="4" /&gt;
+    &lt;Players Name="Seq4" Stack="200" Seat="5" /&gt;
+    &lt;Rake&gt;0&lt;/Rake&gt;
+    &lt;Hero&gt;Seq0&lt;/Hero&gt;
+  &lt;/Hands&gt;
+&lt;/PokerHandXML&gt;
+&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;PokerHandXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Hands&gt;
+    &lt;Blinds Player="Seq3" Type="SmallBlind" Amount="1" /&gt;
+    &lt;Blinds Player="Seq4" Type="BigBlind" Amount="2" /&gt;
+    &lt;HoleCards Rank="Nine" Suit="Spades" /&gt;
+    &lt;HoleCards Rank="King" Suit="Hearts" /&gt;
+    &lt;Rounds&gt;
+      &lt;Actions Player="Seq0" Type="Raise" Amount="4" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Context Online="false" Site="SimulatedPokerSite" Currency="$" ID="42" TimeStamp="2012-12-09T19:03:59.859754-06:00" Format="CashGame" Button="3" BigBlind="2" SmallBlind="1" BettingType="NoLimit" PokerVariant="TexasHoldEm" /&gt;
+    &lt;Players Name="Seq0" Stack="200" Seat="1" /&gt;
+    &lt;Players Name="Seq1" Stack="200" Seat="2" /&gt;
+    &lt;Players Name="Seq2" Stack="200" Seat="3" /&gt;
+    &lt;Players Name="Seq3" Stack="200" Seat="4" /&gt;
+    &lt;Players Name="Seq4" Stack="200" Seat="5" /&gt;
+    &lt;Rake&gt;0&lt;/Rake&gt;
+    &lt;Hero&gt;Seq1&lt;/Hero&gt;
+  &lt;/Hands&gt;
+&lt;/PokerHandXML&gt;
+&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;PokerHandXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Hands&gt;
+    &lt;Blinds Player="Seq3" Type="SmallBlind" Amount="1" /&gt;
+    &lt;Blinds Player="Seq4" Type="BigBlind" Amount="2" /&gt;
+    &lt;HoleCards Rank="Queen" Suit="Spades" /&gt;
+    &lt;HoleCards Rank="Eight" Suit="Clubs" /&gt;
+    &lt;Rounds&gt;
+      &lt;Actions Player="Seq0" Type="Raise" Amount="4" /&gt;
+      &lt;Actions Player="Seq1" Type="Fold" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Context Online="false" Site="SimulatedPokerSite" Currency="$" ID="42" TimeStamp="2012-12-09T19:03:59.867742-06:00" Format="CashGame" Button="3" BigBlind="2" SmallBlind="1" BettingType="NoLimit" PokerVariant="TexasHoldEm" /&gt;
+    &lt;Players Name="Seq0" Stack="200" Seat="1" /&gt;
+    &lt;Players Name="Seq1" Stack="200" Seat="2" /&gt;
+    &lt;Players Name="Seq2" Stack="200" Seat="3" /&gt;
+    &lt;Players Name="Seq3" Stack="200" Seat="4" /&gt;
+    &lt;Players Name="Seq4" Stack="200" Seat="5" /&gt;
+    &lt;Rake&gt;0&lt;/Rake&gt;
+    &lt;Hero&gt;Seq2&lt;/Hero&gt;
+  &lt;/Hands&gt;
+&lt;/PokerHandXML&gt;
+&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;PokerHandXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Hands&gt;
+    &lt;Blinds Player="Seq3" Type="SmallBlind" Amount="1" /&gt;
+    &lt;Blinds Player="Seq4" Type="BigBlind" Amount="2" /&gt;
+    &lt;HoleCards Rank="Two" Suit="Spades" /&gt;
+    &lt;HoleCards Rank="Queen" Suit="Clubs" /&gt;
+    &lt;Rounds&gt;
+      &lt;Actions Player="Seq0" Type="Raise" Amount="4" /&gt;
+      &lt;Actions Player="Seq1" Type="Fold" /&gt;
+      &lt;Actions Player="Seq2" Type="Fold" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Context Online="false" Site="SimulatedPokerSite" Currency="$" ID="42" TimeStamp="2012-12-09T19:03:59.870866-06:00" Format="CashGame" Button="3" BigBlind="2" SmallBlind="1" BettingType="NoLimit" PokerVariant="TexasHoldEm" /&gt;
+    &lt;Players Name="Seq0" Stack="200" Seat="1" /&gt;
+    &lt;Players Name="Seq1" Stack="200" Seat="2" /&gt;
+    &lt;Players Name="Seq2" Stack="200" Seat="3" /&gt;
+    &lt;Players Name="Seq3" Stack="200" Seat="4" /&gt;
+    &lt;Players Name="Seq4" Stack="200" Seat="5" /&gt;
+    &lt;Rake&gt;0&lt;/Rake&gt;
+    &lt;Hero&gt;Seq3&lt;/Hero&gt;
+  &lt;/Hands&gt;
+&lt;/PokerHandXML&gt;
+&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;PokerHandXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Hands&gt;
+    &lt;Blinds Player="Seq3" Type="SmallBlind" Amount="1" /&gt;
+    &lt;Blinds Player="Seq4" Type="BigBlind" Amount="2" /&gt;
+    &lt;HoleCards Rank="Seven" Suit="Spades" /&gt;
+    &lt;HoleCards Rank="Jack" Suit="Diamonds" /&gt;
+    &lt;Rounds&gt;
+      &lt;Actions Player="Seq0" Type="Raise" Amount="4" /&gt;
+      &lt;Actions Player="Seq1" Type="Fold" /&gt;
+      &lt;Actions Player="Seq2" Type="Fold" /&gt;
+      &lt;Actions Player="Seq3" Type="Fold" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Context Online="false" Site="SimulatedPokerSite" Currency="$" ID="42" TimeStamp="2012-12-09T19:03:59.875776-06:00" Format="CashGame" Button="3" BigBlind="2" SmallBlind="1" BettingType="NoLimit" PokerVariant="TexasHoldEm" /&gt;
+    &lt;Players Name="Seq0" Stack="200" Seat="1" /&gt;
+    &lt;Players Name="Seq1" Stack="200" Seat="2" /&gt;
+    &lt;Players Name="Seq2" Stack="200" Seat="3" /&gt;
+    &lt;Players Name="Seq3" Stack="200" Seat="4" /&gt;
+    &lt;Players Name="Seq4" Stack="200" Seat="5" /&gt;
+    &lt;Rake&gt;0&lt;/Rake&gt;
+    &lt;Hero&gt;Seq4&lt;/Hero&gt;
+  &lt;/Hands&gt;
+&lt;/PokerHandXML&gt;
+&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;PokerHandXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Hands&gt;
+    &lt;Blinds Player="Seq3" Type="SmallBlind" Amount="1" /&gt;
+    &lt;Blinds Player="Seq4" Type="BigBlind" Amount="2" /&gt;
+    &lt;HoleCards Rank="Five" Suit="Hearts" /&gt;
+    &lt;HoleCards Rank="Ten" Suit="Clubs" /&gt;
+    &lt;Rounds&gt;
+      &lt;Actions Player="Seq0" Type="Raise" Amount="4" /&gt;
+      &lt;Actions Player="Seq1" Type="Fold" /&gt;
+      &lt;Actions Player="Seq2" Type="Fold" /&gt;
+      &lt;Actions Player="Seq3" Type="Fold" /&gt;
+      &lt;Actions Player="Seq4" Type="Raise" Amount="4" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Context Online="false" Site="SimulatedPokerSite" Currency="$" ID="42" TimeStamp="2012-12-09T19:03:59.878523-06:00" Format="CashGame" Button="3" BigBlind="2" SmallBlind="1" BettingType="NoLimit" PokerVariant="TexasHoldEm" /&gt;
+    &lt;Players Name="Seq0" Stack="200" Seat="1" /&gt;
+    &lt;Players Name="Seq1" Stack="200" Seat="2" /&gt;
+    &lt;Players Name="Seq2" Stack="200" Seat="3" /&gt;
+    &lt;Players Name="Seq3" Stack="200" Seat="4" /&gt;
+    &lt;Players Name="Seq4" Stack="200" Seat="5" /&gt;
+    &lt;Rake&gt;0&lt;/Rake&gt;
+    &lt;Hero&gt;Seq0&lt;/Hero&gt;
+  &lt;/Hands&gt;
+&lt;/PokerHandXML&gt;
+&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;PokerHandXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Hands&gt;
+    &lt;Blinds Player="Seq3" Type="SmallBlind" Amount="1" /&gt;
+    &lt;Blinds Player="Seq4" Type="BigBlind" Amount="2" /&gt;
+    &lt;HoleCards Rank="Seven" Suit="Spades" /&gt;
+    &lt;HoleCards Rank="Jack" Suit="Diamonds" /&gt;
+    &lt;Rounds&gt;
+      &lt;Actions Player="Seq0" Type="Raise" Amount="4" /&gt;
+      &lt;Actions Player="Seq1" Type="Fold" /&gt;
+      &lt;Actions Player="Seq2" Type="Fold" /&gt;
+      &lt;Actions Player="Seq3" Type="Fold" /&gt;
+      &lt;Actions Player="Seq4" Type="Raise" Amount="4" /&gt;
+      &lt;Actions Player="Seq0" Type="Call" Amount="2" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Rounds&gt;
+      &lt;CommunityCards Rank="Seven" Suit="Hearts" /&gt;
+      &lt;CommunityCards Rank="Eight" Suit="Diamonds" /&gt;
+      &lt;CommunityCards Rank="Two" Suit="Clubs" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Context Online="false" Site="SimulatedPokerSite" Currency="$" ID="42" TimeStamp="2012-12-09T19:03:59.881699-06:00" Format="CashGame" Button="3" BigBlind="2" SmallBlind="1" BettingType="NoLimit" PokerVariant="TexasHoldEm" /&gt;
+    &lt;Players Name="Seq0" Stack="200" Seat="1" /&gt;
+    &lt;Players Name="Seq1" Stack="200" Seat="2" /&gt;
+    &lt;Players Name="Seq2" Stack="200" Seat="3" /&gt;
+    &lt;Players Name="Seq3" Stack="200" Seat="4" /&gt;
+    &lt;Players Name="Seq4" Stack="200" Seat="5" /&gt;
+    &lt;Rake&gt;0&lt;/Rake&gt;
+    &lt;Hero&gt;Seq4&lt;/Hero&gt;
+  &lt;/Hands&gt;
+&lt;/PokerHandXML&gt;
+&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;PokerHandXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Hands&gt;
+    &lt;Blinds Player="Seq3" Type="SmallBlind" Amount="1" /&gt;
+    &lt;Blinds Player="Seq4" Type="BigBlind" Amount="2" /&gt;
+    &lt;HoleCards Rank="Five" Suit="Hearts" /&gt;
+    &lt;HoleCards Rank="Ten" Suit="Clubs" /&gt;
+    &lt;Rounds&gt;
+      &lt;Actions Player="Seq0" Type="Raise" Amount="4" /&gt;
+      &lt;Actions Player="Seq1" Type="Fold" /&gt;
+      &lt;Actions Player="Seq2" Type="Fold" /&gt;
+      &lt;Actions Player="Seq3" Type="Fold" /&gt;
+      &lt;Actions Player="Seq4" Type="Raise" Amount="4" /&gt;
+      &lt;Actions Player="Seq0" Type="Call" Amount="2" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Rounds&gt;
+      &lt;CommunityCards Rank="Seven" Suit="Hearts" /&gt;
+      &lt;CommunityCards Rank="Eight" Suit="Diamonds" /&gt;
+      &lt;CommunityCards Rank="Two" Suit="Clubs" /&gt;
+      &lt;Actions Player="Seq4" Type="Bet" Amount="194" AllIn="true" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Context Online="false" Site="SimulatedPokerSite" Currency="$" ID="42" TimeStamp="2012-12-09T19:03:59.884452-06:00" Format="CashGame" Button="3" BigBlind="2" SmallBlind="1" BettingType="NoLimit" PokerVariant="TexasHoldEm" /&gt;
+    &lt;Players Name="Seq0" Stack="200" Seat="1" /&gt;
+    &lt;Players Name="Seq1" Stack="200" Seat="2" /&gt;
+    &lt;Players Name="Seq2" Stack="200" Seat="3" /&gt;
+    &lt;Players Name="Seq3" Stack="200" Seat="4" /&gt;
+    &lt;Players Name="Seq4" Stack="200" Seat="5" /&gt;
+    &lt;Rake&gt;0&lt;/Rake&gt;
+    &lt;Hero&gt;Seq0&lt;/Hero&gt;
+  &lt;/Hands&gt;
+&lt;/PokerHandXML&gt;
+SimulatedPokerSite Game #42: Tournament #0, $0+$0 Hold'em No Limit - Level 0 (1/2 - 12/9/2012 - 7:03 PM
+Table '0 0' 0-max Seat #3 is the button
+Seat 1: Seq0 (200 in chips)
+Seat 2: Seq1 (200 in chips)
+Seat 3: Seq2 (200 in chips)
+Seat 4: Seq3 (200 in chips)
+Seat 5: Seq4 (200 in chips)
+Seq3: posts small blind [$1]
+Seq4: posts big blind [$2]
+*** HOLE CARDS ***
+Dealt to Seq0 [5h Tc]
+Dealt to Seq1 [9s Kh]
+Dealt to Seq2 [Qs 8c]
+Dealt to Seq3 [2s Qc]
+Dealt to Seq4 [7s Jd]
+Seq0: raises [4]
+Seq1: folds
+Seq2: folds
+Seq3: folds
+Seq4: raises [4]
+Seq0: calls [2]
+*** Flop *** [7h 8d 2c]
+Seq4: bets [194] and is all-In.
+Seq0: folds
+Seq4 collected 207 from Main pot 
+</ConsoleOutput>
+                  <ConsoleError />
+                </UnitTestResult>
               </Results>
               <Tests />
             </TestRecord>
@@ -7255,6 +7667,20 @@ Execution time: 0.07ms</Message>
               <Message>Test successful
 
 Execution time: 0.07ms</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-12-09T19:03:58</TestDate>
+              <Passed>1</Passed>
+              <Errors>0</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.09ms</Message>
             </UnitTestResult>
           </Results>
           <Tests>
@@ -17464,6 +17890,605 @@ Execution time: 0.06ms</Message>
 </ConsoleOutput>
                   <ConsoleError />
                 </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-12-09T19:03:58</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.06ms</Message>
+                  <ConsoleOutput>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;PokerHandXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Hands&gt;
+    &lt;Blinds Player="jcloub" Type="SmallBlind" Amount="5" /&gt;
+    &lt;Blinds Player="MakelGrus" Type="BigBlind" Amount="10" /&gt;
+    &lt;HoleCards Rank="Six" Suit="Hearts" /&gt;
+    &lt;HoleCards Rank="Six" Suit="Clubs" /&gt;
+    &lt;Rounds /&gt;
+    &lt;Context Online="false" Site="SimulatedPokerSite" Currency="$" ID="1" TimeStamp="2012-12-09T19:03:59.932651-06:00" Format="CashGame" Button="10" BigBlind="10" SmallBlind="5" BettingType="FixedLimit" PokerVariant="TexasHoldEm" /&gt;
+    &lt;Players Name="jcloub" Stack="2044.5" Seat="1" /&gt;
+    &lt;Players Name="MakelGrus" Stack="498" Seat="3" /&gt;
+    &lt;Players Name="Hustler_Ed" Stack="470" Seat="5" /&gt;
+    &lt;Players Name="Shammybaby" Stack="551" Seat="6" /&gt;
+    &lt;Players Name="marine0193" Stack="538" Seat="8" /&gt;
+    &lt;Players Name="TeeJayorTJ5" Stack="484" Seat="10" /&gt;
+    &lt;Rake&gt;0&lt;/Rake&gt;
+    &lt;Hero&gt;Hustler_Ed&lt;/Hero&gt;
+  &lt;/Hands&gt;
+&lt;/PokerHandXML&gt;
+&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;PokerHandXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Hands&gt;
+    &lt;Blinds Player="jcloub" Type="SmallBlind" Amount="5" /&gt;
+    &lt;Blinds Player="MakelGrus" Type="BigBlind" Amount="10" /&gt;
+    &lt;HoleCards Rank="King" Suit="Hearts" /&gt;
+    &lt;HoleCards Rank="Eight" Suit="Clubs" /&gt;
+    &lt;Rounds&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="10" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Context Online="false" Site="SimulatedPokerSite" Currency="$" ID="1" TimeStamp="2012-12-09T19:03:59.936033-06:00" Format="CashGame" Button="10" BigBlind="10" SmallBlind="5" BettingType="FixedLimit" PokerVariant="TexasHoldEm" /&gt;
+    &lt;Players Name="jcloub" Stack="2044.5" Seat="1" /&gt;
+    &lt;Players Name="MakelGrus" Stack="498" Seat="3" /&gt;
+    &lt;Players Name="Hustler_Ed" Stack="470" Seat="5" /&gt;
+    &lt;Players Name="Shammybaby" Stack="551" Seat="6" /&gt;
+    &lt;Players Name="marine0193" Stack="538" Seat="8" /&gt;
+    &lt;Players Name="TeeJayorTJ5" Stack="484" Seat="10" /&gt;
+    &lt;Rake&gt;0&lt;/Rake&gt;
+    &lt;Hero&gt;Shammybaby&lt;/Hero&gt;
+  &lt;/Hands&gt;
+&lt;/PokerHandXML&gt;
+&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;PokerHandXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Hands&gt;
+    &lt;Blinds Player="jcloub" Type="SmallBlind" Amount="5" /&gt;
+    &lt;Blinds Player="MakelGrus" Type="BigBlind" Amount="10" /&gt;
+    &lt;HoleCards Rank="Five" Suit="Spades" /&gt;
+    &lt;HoleCards Rank="Queen" Suit="Diamonds" /&gt;
+    &lt;Rounds&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="10" /&gt;
+      &lt;Actions Player="Shammybaby" Type="Fold" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Context Online="false" Site="SimulatedPokerSite" Currency="$" ID="1" TimeStamp="2012-12-09T19:03:59.939128-06:00" Format="CashGame" Button="10" BigBlind="10" SmallBlind="5" BettingType="FixedLimit" PokerVariant="TexasHoldEm" /&gt;
+    &lt;Players Name="jcloub" Stack="2044.5" Seat="1" /&gt;
+    &lt;Players Name="MakelGrus" Stack="498" Seat="3" /&gt;
+    &lt;Players Name="Hustler_Ed" Stack="470" Seat="5" /&gt;
+    &lt;Players Name="Shammybaby" Stack="551" Seat="6" /&gt;
+    &lt;Players Name="marine0193" Stack="538" Seat="8" /&gt;
+    &lt;Players Name="TeeJayorTJ5" Stack="484" Seat="10" /&gt;
+    &lt;Rake&gt;0&lt;/Rake&gt;
+    &lt;Hero&gt;marine0193&lt;/Hero&gt;
+  &lt;/Hands&gt;
+&lt;/PokerHandXML&gt;
+&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;PokerHandXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Hands&gt;
+    &lt;Blinds Player="jcloub" Type="SmallBlind" Amount="5" /&gt;
+    &lt;Blinds Player="MakelGrus" Type="BigBlind" Amount="10" /&gt;
+    &lt;HoleCards Rank="Jack" Suit="Clubs" /&gt;
+    &lt;HoleCards Rank="Seven" Suit="Clubs" /&gt;
+    &lt;Rounds&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="10" /&gt;
+      &lt;Actions Player="Shammybaby" Type="Fold" /&gt;
+      &lt;Actions Player="marine0193" Type="Fold" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Context Online="false" Site="SimulatedPokerSite" Currency="$" ID="1" TimeStamp="2012-12-09T19:03:59.941807-06:00" Format="CashGame" Button="10" BigBlind="10" SmallBlind="5" BettingType="FixedLimit" PokerVariant="TexasHoldEm" /&gt;
+    &lt;Players Name="jcloub" Stack="2044.5" Seat="1" /&gt;
+    &lt;Players Name="MakelGrus" Stack="498" Seat="3" /&gt;
+    &lt;Players Name="Hustler_Ed" Stack="470" Seat="5" /&gt;
+    &lt;Players Name="Shammybaby" Stack="551" Seat="6" /&gt;
+    &lt;Players Name="marine0193" Stack="538" Seat="8" /&gt;
+    &lt;Players Name="TeeJayorTJ5" Stack="484" Seat="10" /&gt;
+    &lt;Rake&gt;0&lt;/Rake&gt;
+    &lt;Hero&gt;TeeJayorTJ5&lt;/Hero&gt;
+  &lt;/Hands&gt;
+&lt;/PokerHandXML&gt;
+&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;PokerHandXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Hands&gt;
+    &lt;Blinds Player="jcloub" Type="SmallBlind" Amount="5" /&gt;
+    &lt;Blinds Player="MakelGrus" Type="BigBlind" Amount="10" /&gt;
+    &lt;HoleCards Rank="Six" Suit="Spades" /&gt;
+    &lt;HoleCards Rank="Jack" Suit="Hearts" /&gt;
+    &lt;Rounds&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="10" /&gt;
+      &lt;Actions Player="Shammybaby" Type="Fold" /&gt;
+      &lt;Actions Player="marine0193" Type="Fold" /&gt;
+      &lt;Actions Player="TeeJayorTJ5" Type="Fold" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Context Online="false" Site="SimulatedPokerSite" Currency="$" ID="1" TimeStamp="2012-12-09T19:03:59.947006-06:00" Format="CashGame" Button="10" BigBlind="10" SmallBlind="5" BettingType="FixedLimit" PokerVariant="TexasHoldEm" /&gt;
+    &lt;Players Name="jcloub" Stack="2044.5" Seat="1" /&gt;
+    &lt;Players Name="MakelGrus" Stack="498" Seat="3" /&gt;
+    &lt;Players Name="Hustler_Ed" Stack="470" Seat="5" /&gt;
+    &lt;Players Name="Shammybaby" Stack="551" Seat="6" /&gt;
+    &lt;Players Name="marine0193" Stack="538" Seat="8" /&gt;
+    &lt;Players Name="TeeJayorTJ5" Stack="484" Seat="10" /&gt;
+    &lt;Rake&gt;0&lt;/Rake&gt;
+    &lt;Hero&gt;jcloub&lt;/Hero&gt;
+  &lt;/Hands&gt;
+&lt;/PokerHandXML&gt;
+&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;PokerHandXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Hands&gt;
+    &lt;Blinds Player="jcloub" Type="SmallBlind" Amount="5" /&gt;
+    &lt;Blinds Player="MakelGrus" Type="BigBlind" Amount="10" /&gt;
+    &lt;HoleCards Rank="Three" Suit="Hearts" /&gt;
+    &lt;HoleCards Rank="Five" Suit="Clubs" /&gt;
+    &lt;Rounds&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="10" /&gt;
+      &lt;Actions Player="Shammybaby" Type="Fold" /&gt;
+      &lt;Actions Player="marine0193" Type="Fold" /&gt;
+      &lt;Actions Player="TeeJayorTJ5" Type="Fold" /&gt;
+      &lt;Actions Player="jcloub" Type="Raise" Amount="15" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Context Online="false" Site="SimulatedPokerSite" Currency="$" ID="1" TimeStamp="2012-12-09T19:03:59.949747-06:00" Format="CashGame" Button="10" BigBlind="10" SmallBlind="5" BettingType="FixedLimit" PokerVariant="TexasHoldEm" /&gt;
+    &lt;Players Name="jcloub" Stack="2044.5" Seat="1" /&gt;
+    &lt;Players Name="MakelGrus" Stack="498" Seat="3" /&gt;
+    &lt;Players Name="Hustler_Ed" Stack="470" Seat="5" /&gt;
+    &lt;Players Name="Shammybaby" Stack="551" Seat="6" /&gt;
+    &lt;Players Name="marine0193" Stack="538" Seat="8" /&gt;
+    &lt;Players Name="TeeJayorTJ5" Stack="484" Seat="10" /&gt;
+    &lt;Rake&gt;0&lt;/Rake&gt;
+    &lt;Hero&gt;MakelGrus&lt;/Hero&gt;
+  &lt;/Hands&gt;
+&lt;/PokerHandXML&gt;
+&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;PokerHandXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Hands&gt;
+    &lt;Blinds Player="jcloub" Type="SmallBlind" Amount="5" /&gt;
+    &lt;Blinds Player="MakelGrus" Type="BigBlind" Amount="10" /&gt;
+    &lt;HoleCards Rank="Six" Suit="Hearts" /&gt;
+    &lt;HoleCards Rank="Six" Suit="Clubs" /&gt;
+    &lt;Rounds&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="10" /&gt;
+      &lt;Actions Player="Shammybaby" Type="Fold" /&gt;
+      &lt;Actions Player="marine0193" Type="Fold" /&gt;
+      &lt;Actions Player="TeeJayorTJ5" Type="Fold" /&gt;
+      &lt;Actions Player="jcloub" Type="Raise" Amount="15" /&gt;
+      &lt;Actions Player="MakelGrus" Type="Call" Amount="10" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Context Online="false" Site="SimulatedPokerSite" Currency="$" ID="1" TimeStamp="2012-12-09T19:03:59.952553-06:00" Format="CashGame" Button="10" BigBlind="10" SmallBlind="5" BettingType="FixedLimit" PokerVariant="TexasHoldEm" /&gt;
+    &lt;Players Name="jcloub" Stack="2044.5" Seat="1" /&gt;
+    &lt;Players Name="MakelGrus" Stack="498" Seat="3" /&gt;
+    &lt;Players Name="Hustler_Ed" Stack="470" Seat="5" /&gt;
+    &lt;Players Name="Shammybaby" Stack="551" Seat="6" /&gt;
+    &lt;Players Name="marine0193" Stack="538" Seat="8" /&gt;
+    &lt;Players Name="TeeJayorTJ5" Stack="484" Seat="10" /&gt;
+    &lt;Rake&gt;0&lt;/Rake&gt;
+    &lt;Hero&gt;Hustler_Ed&lt;/Hero&gt;
+  &lt;/Hands&gt;
+&lt;/PokerHandXML&gt;
+&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;PokerHandXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Hands&gt;
+    &lt;Blinds Player="jcloub" Type="SmallBlind" Amount="5" /&gt;
+    &lt;Blinds Player="MakelGrus" Type="BigBlind" Amount="10" /&gt;
+    &lt;HoleCards Rank="Six" Suit="Spades" /&gt;
+    &lt;HoleCards Rank="Jack" Suit="Hearts" /&gt;
+    &lt;Rounds&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="10" /&gt;
+      &lt;Actions Player="Shammybaby" Type="Fold" /&gt;
+      &lt;Actions Player="marine0193" Type="Fold" /&gt;
+      &lt;Actions Player="TeeJayorTJ5" Type="Fold" /&gt;
+      &lt;Actions Player="jcloub" Type="Raise" Amount="15" /&gt;
+      &lt;Actions Player="MakelGrus" Type="Call" Amount="10" /&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="10" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Rounds&gt;
+      &lt;CommunityCards Rank="Eight" Suit="Spades" /&gt;
+      &lt;CommunityCards Rank="Four" Suit="Hearts" /&gt;
+      &lt;CommunityCards Rank="Nine" Suit="Diamonds" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Context Online="false" Site="SimulatedPokerSite" Currency="$" ID="1" TimeStamp="2012-12-09T19:03:59.955258-06:00" Format="CashGame" Button="10" BigBlind="10" SmallBlind="5" BettingType="FixedLimit" PokerVariant="TexasHoldEm" /&gt;
+    &lt;Players Name="jcloub" Stack="2044.5" Seat="1" /&gt;
+    &lt;Players Name="MakelGrus" Stack="498" Seat="3" /&gt;
+    &lt;Players Name="Hustler_Ed" Stack="470" Seat="5" /&gt;
+    &lt;Players Name="Shammybaby" Stack="551" Seat="6" /&gt;
+    &lt;Players Name="marine0193" Stack="538" Seat="8" /&gt;
+    &lt;Players Name="TeeJayorTJ5" Stack="484" Seat="10" /&gt;
+    &lt;Rake&gt;0&lt;/Rake&gt;
+    &lt;Hero&gt;jcloub&lt;/Hero&gt;
+  &lt;/Hands&gt;
+&lt;/PokerHandXML&gt;
+&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;PokerHandXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Hands&gt;
+    &lt;Blinds Player="jcloub" Type="SmallBlind" Amount="5" /&gt;
+    &lt;Blinds Player="MakelGrus" Type="BigBlind" Amount="10" /&gt;
+    &lt;HoleCards Rank="Three" Suit="Hearts" /&gt;
+    &lt;HoleCards Rank="Five" Suit="Clubs" /&gt;
+    &lt;Rounds&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="10" /&gt;
+      &lt;Actions Player="Shammybaby" Type="Fold" /&gt;
+      &lt;Actions Player="marine0193" Type="Fold" /&gt;
+      &lt;Actions Player="TeeJayorTJ5" Type="Fold" /&gt;
+      &lt;Actions Player="jcloub" Type="Raise" Amount="15" /&gt;
+      &lt;Actions Player="MakelGrus" Type="Call" Amount="10" /&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="10" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Rounds&gt;
+      &lt;CommunityCards Rank="Eight" Suit="Spades" /&gt;
+      &lt;CommunityCards Rank="Four" Suit="Hearts" /&gt;
+      &lt;CommunityCards Rank="Nine" Suit="Diamonds" /&gt;
+      &lt;Actions Player="jcloub" Type="Bet" Amount="10" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Context Online="false" Site="SimulatedPokerSite" Currency="$" ID="1" TimeStamp="2012-12-09T19:03:59.960256-06:00" Format="CashGame" Button="10" BigBlind="10" SmallBlind="5" BettingType="FixedLimit" PokerVariant="TexasHoldEm" /&gt;
+    &lt;Players Name="jcloub" Stack="2044.5" Seat="1" /&gt;
+    &lt;Players Name="MakelGrus" Stack="498" Seat="3" /&gt;
+    &lt;Players Name="Hustler_Ed" Stack="470" Seat="5" /&gt;
+    &lt;Players Name="Shammybaby" Stack="551" Seat="6" /&gt;
+    &lt;Players Name="marine0193" Stack="538" Seat="8" /&gt;
+    &lt;Players Name="TeeJayorTJ5" Stack="484" Seat="10" /&gt;
+    &lt;Rake&gt;0&lt;/Rake&gt;
+    &lt;Hero&gt;MakelGrus&lt;/Hero&gt;
+  &lt;/Hands&gt;
+&lt;/PokerHandXML&gt;
+&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;PokerHandXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Hands&gt;
+    &lt;Blinds Player="jcloub" Type="SmallBlind" Amount="5" /&gt;
+    &lt;Blinds Player="MakelGrus" Type="BigBlind" Amount="10" /&gt;
+    &lt;HoleCards Rank="Six" Suit="Hearts" /&gt;
+    &lt;HoleCards Rank="Six" Suit="Clubs" /&gt;
+    &lt;Rounds&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="10" /&gt;
+      &lt;Actions Player="Shammybaby" Type="Fold" /&gt;
+      &lt;Actions Player="marine0193" Type="Fold" /&gt;
+      &lt;Actions Player="TeeJayorTJ5" Type="Fold" /&gt;
+      &lt;Actions Player="jcloub" Type="Raise" Amount="15" /&gt;
+      &lt;Actions Player="MakelGrus" Type="Call" Amount="10" /&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="10" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Rounds&gt;
+      &lt;CommunityCards Rank="Eight" Suit="Spades" /&gt;
+      &lt;CommunityCards Rank="Four" Suit="Hearts" /&gt;
+      &lt;CommunityCards Rank="Nine" Suit="Diamonds" /&gt;
+      &lt;Actions Player="jcloub" Type="Bet" Amount="10" /&gt;
+      &lt;Actions Player="MakelGrus" Type="Call" Amount="10" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Context Online="false" Site="SimulatedPokerSite" Currency="$" ID="1" TimeStamp="2012-12-09T19:03:59.963239-06:00" Format="CashGame" Button="10" BigBlind="10" SmallBlind="5" BettingType="FixedLimit" PokerVariant="TexasHoldEm" /&gt;
+    &lt;Players Name="jcloub" Stack="2044.5" Seat="1" /&gt;
+    &lt;Players Name="MakelGrus" Stack="498" Seat="3" /&gt;
+    &lt;Players Name="Hustler_Ed" Stack="470" Seat="5" /&gt;
+    &lt;Players Name="Shammybaby" Stack="551" Seat="6" /&gt;
+    &lt;Players Name="marine0193" Stack="538" Seat="8" /&gt;
+    &lt;Players Name="TeeJayorTJ5" Stack="484" Seat="10" /&gt;
+    &lt;Rake&gt;0&lt;/Rake&gt;
+    &lt;Hero&gt;Hustler_Ed&lt;/Hero&gt;
+  &lt;/Hands&gt;
+&lt;/PokerHandXML&gt;
+&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;PokerHandXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Hands&gt;
+    &lt;Blinds Player="jcloub" Type="SmallBlind" Amount="5" /&gt;
+    &lt;Blinds Player="MakelGrus" Type="BigBlind" Amount="10" /&gt;
+    &lt;HoleCards Rank="Six" Suit="Spades" /&gt;
+    &lt;HoleCards Rank="Jack" Suit="Hearts" /&gt;
+    &lt;Rounds&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="10" /&gt;
+      &lt;Actions Player="Shammybaby" Type="Fold" /&gt;
+      &lt;Actions Player="marine0193" Type="Fold" /&gt;
+      &lt;Actions Player="TeeJayorTJ5" Type="Fold" /&gt;
+      &lt;Actions Player="jcloub" Type="Raise" Amount="15" /&gt;
+      &lt;Actions Player="MakelGrus" Type="Call" Amount="10" /&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="10" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Rounds&gt;
+      &lt;CommunityCards Rank="Eight" Suit="Spades" /&gt;
+      &lt;CommunityCards Rank="Four" Suit="Hearts" /&gt;
+      &lt;CommunityCards Rank="Nine" Suit="Diamonds" /&gt;
+      &lt;Actions Player="jcloub" Type="Bet" Amount="10" /&gt;
+      &lt;Actions Player="MakelGrus" Type="Call" Amount="10" /&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="10" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Rounds&gt;
+      &lt;CommunityCards Rank="Eight" Suit="Diamonds" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Context Online="false" Site="SimulatedPokerSite" Currency="$" ID="1" TimeStamp="2012-12-09T19:03:59.966323-06:00" Format="CashGame" Button="10" BigBlind="10" SmallBlind="5" BettingType="FixedLimit" PokerVariant="TexasHoldEm" /&gt;
+    &lt;Players Name="jcloub" Stack="2044.5" Seat="1" /&gt;
+    &lt;Players Name="MakelGrus" Stack="498" Seat="3" /&gt;
+    &lt;Players Name="Hustler_Ed" Stack="470" Seat="5" /&gt;
+    &lt;Players Name="Shammybaby" Stack="551" Seat="6" /&gt;
+    &lt;Players Name="marine0193" Stack="538" Seat="8" /&gt;
+    &lt;Players Name="TeeJayorTJ5" Stack="484" Seat="10" /&gt;
+    &lt;Rake&gt;0&lt;/Rake&gt;
+    &lt;Hero&gt;jcloub&lt;/Hero&gt;
+  &lt;/Hands&gt;
+&lt;/PokerHandXML&gt;
+&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;PokerHandXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Hands&gt;
+    &lt;Blinds Player="jcloub" Type="SmallBlind" Amount="5" /&gt;
+    &lt;Blinds Player="MakelGrus" Type="BigBlind" Amount="10" /&gt;
+    &lt;HoleCards Rank="Three" Suit="Hearts" /&gt;
+    &lt;HoleCards Rank="Five" Suit="Clubs" /&gt;
+    &lt;Rounds&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="10" /&gt;
+      &lt;Actions Player="Shammybaby" Type="Fold" /&gt;
+      &lt;Actions Player="marine0193" Type="Fold" /&gt;
+      &lt;Actions Player="TeeJayorTJ5" Type="Fold" /&gt;
+      &lt;Actions Player="jcloub" Type="Raise" Amount="15" /&gt;
+      &lt;Actions Player="MakelGrus" Type="Call" Amount="10" /&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="10" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Rounds&gt;
+      &lt;CommunityCards Rank="Eight" Suit="Spades" /&gt;
+      &lt;CommunityCards Rank="Four" Suit="Hearts" /&gt;
+      &lt;CommunityCards Rank="Nine" Suit="Diamonds" /&gt;
+      &lt;Actions Player="jcloub" Type="Bet" Amount="10" /&gt;
+      &lt;Actions Player="MakelGrus" Type="Call" Amount="10" /&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="10" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Rounds&gt;
+      &lt;CommunityCards Rank="Eight" Suit="Diamonds" /&gt;
+      &lt;Actions Player="jcloub" Type="Bet" Amount="20" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Context Online="false" Site="SimulatedPokerSite" Currency="$" ID="1" TimeStamp="2012-12-09T19:03:59.969147-06:00" Format="CashGame" Button="10" BigBlind="10" SmallBlind="5" BettingType="FixedLimit" PokerVariant="TexasHoldEm" /&gt;
+    &lt;Players Name="jcloub" Stack="2044.5" Seat="1" /&gt;
+    &lt;Players Name="MakelGrus" Stack="498" Seat="3" /&gt;
+    &lt;Players Name="Hustler_Ed" Stack="470" Seat="5" /&gt;
+    &lt;Players Name="Shammybaby" Stack="551" Seat="6" /&gt;
+    &lt;Players Name="marine0193" Stack="538" Seat="8" /&gt;
+    &lt;Players Name="TeeJayorTJ5" Stack="484" Seat="10" /&gt;
+    &lt;Rake&gt;0&lt;/Rake&gt;
+    &lt;Hero&gt;MakelGrus&lt;/Hero&gt;
+  &lt;/Hands&gt;
+&lt;/PokerHandXML&gt;
+&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;PokerHandXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Hands&gt;
+    &lt;Blinds Player="jcloub" Type="SmallBlind" Amount="5" /&gt;
+    &lt;Blinds Player="MakelGrus" Type="BigBlind" Amount="10" /&gt;
+    &lt;HoleCards Rank="Six" Suit="Hearts" /&gt;
+    &lt;HoleCards Rank="Six" Suit="Clubs" /&gt;
+    &lt;Rounds&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="10" /&gt;
+      &lt;Actions Player="Shammybaby" Type="Fold" /&gt;
+      &lt;Actions Player="marine0193" Type="Fold" /&gt;
+      &lt;Actions Player="TeeJayorTJ5" Type="Fold" /&gt;
+      &lt;Actions Player="jcloub" Type="Raise" Amount="15" /&gt;
+      &lt;Actions Player="MakelGrus" Type="Call" Amount="10" /&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="10" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Rounds&gt;
+      &lt;CommunityCards Rank="Eight" Suit="Spades" /&gt;
+      &lt;CommunityCards Rank="Four" Suit="Hearts" /&gt;
+      &lt;CommunityCards Rank="Nine" Suit="Diamonds" /&gt;
+      &lt;Actions Player="jcloub" Type="Bet" Amount="10" /&gt;
+      &lt;Actions Player="MakelGrus" Type="Call" Amount="10" /&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="10" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Rounds&gt;
+      &lt;CommunityCards Rank="Eight" Suit="Diamonds" /&gt;
+      &lt;Actions Player="jcloub" Type="Bet" Amount="20" /&gt;
+      &lt;Actions Player="MakelGrus" Type="Call" Amount="20" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Context Online="false" Site="SimulatedPokerSite" Currency="$" ID="1" TimeStamp="2012-12-09T19:03:59.97396-06:00" Format="CashGame" Button="10" BigBlind="10" SmallBlind="5" BettingType="FixedLimit" PokerVariant="TexasHoldEm" /&gt;
+    &lt;Players Name="jcloub" Stack="2044.5" Seat="1" /&gt;
+    &lt;Players Name="MakelGrus" Stack="498" Seat="3" /&gt;
+    &lt;Players Name="Hustler_Ed" Stack="470" Seat="5" /&gt;
+    &lt;Players Name="Shammybaby" Stack="551" Seat="6" /&gt;
+    &lt;Players Name="marine0193" Stack="538" Seat="8" /&gt;
+    &lt;Players Name="TeeJayorTJ5" Stack="484" Seat="10" /&gt;
+    &lt;Rake&gt;0&lt;/Rake&gt;
+    &lt;Hero&gt;Hustler_Ed&lt;/Hero&gt;
+  &lt;/Hands&gt;
+&lt;/PokerHandXML&gt;
+&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;PokerHandXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Hands&gt;
+    &lt;Blinds Player="jcloub" Type="SmallBlind" Amount="5" /&gt;
+    &lt;Blinds Player="MakelGrus" Type="BigBlind" Amount="10" /&gt;
+    &lt;HoleCards Rank="Six" Suit="Spades" /&gt;
+    &lt;HoleCards Rank="Jack" Suit="Hearts" /&gt;
+    &lt;Rounds&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="10" /&gt;
+      &lt;Actions Player="Shammybaby" Type="Fold" /&gt;
+      &lt;Actions Player="marine0193" Type="Fold" /&gt;
+      &lt;Actions Player="TeeJayorTJ5" Type="Fold" /&gt;
+      &lt;Actions Player="jcloub" Type="Raise" Amount="15" /&gt;
+      &lt;Actions Player="MakelGrus" Type="Call" Amount="10" /&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="10" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Rounds&gt;
+      &lt;CommunityCards Rank="Eight" Suit="Spades" /&gt;
+      &lt;CommunityCards Rank="Four" Suit="Hearts" /&gt;
+      &lt;CommunityCards Rank="Nine" Suit="Diamonds" /&gt;
+      &lt;Actions Player="jcloub" Type="Bet" Amount="10" /&gt;
+      &lt;Actions Player="MakelGrus" Type="Call" Amount="10" /&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="10" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Rounds&gt;
+      &lt;CommunityCards Rank="Eight" Suit="Diamonds" /&gt;
+      &lt;Actions Player="jcloub" Type="Bet" Amount="20" /&gt;
+      &lt;Actions Player="MakelGrus" Type="Call" Amount="20" /&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="20" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Rounds&gt;
+      &lt;CommunityCards Rank="Three" Suit="Spades" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Context Online="false" Site="SimulatedPokerSite" Currency="$" ID="1" TimeStamp="2012-12-09T19:03:59.977027-06:00" Format="CashGame" Button="10" BigBlind="10" SmallBlind="5" BettingType="FixedLimit" PokerVariant="TexasHoldEm" /&gt;
+    &lt;Players Name="jcloub" Stack="2044.5" Seat="1" /&gt;
+    &lt;Players Name="MakelGrus" Stack="498" Seat="3" /&gt;
+    &lt;Players Name="Hustler_Ed" Stack="470" Seat="5" /&gt;
+    &lt;Players Name="Shammybaby" Stack="551" Seat="6" /&gt;
+    &lt;Players Name="marine0193" Stack="538" Seat="8" /&gt;
+    &lt;Players Name="TeeJayorTJ5" Stack="484" Seat="10" /&gt;
+    &lt;Rake&gt;0&lt;/Rake&gt;
+    &lt;Hero&gt;jcloub&lt;/Hero&gt;
+  &lt;/Hands&gt;
+&lt;/PokerHandXML&gt;
+&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;PokerHandXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Hands&gt;
+    &lt;Blinds Player="jcloub" Type="SmallBlind" Amount="5" /&gt;
+    &lt;Blinds Player="MakelGrus" Type="BigBlind" Amount="10" /&gt;
+    &lt;HoleCards Rank="Three" Suit="Hearts" /&gt;
+    &lt;HoleCards Rank="Five" Suit="Clubs" /&gt;
+    &lt;Rounds&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="10" /&gt;
+      &lt;Actions Player="Shammybaby" Type="Fold" /&gt;
+      &lt;Actions Player="marine0193" Type="Fold" /&gt;
+      &lt;Actions Player="TeeJayorTJ5" Type="Fold" /&gt;
+      &lt;Actions Player="jcloub" Type="Raise" Amount="15" /&gt;
+      &lt;Actions Player="MakelGrus" Type="Call" Amount="10" /&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="10" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Rounds&gt;
+      &lt;CommunityCards Rank="Eight" Suit="Spades" /&gt;
+      &lt;CommunityCards Rank="Four" Suit="Hearts" /&gt;
+      &lt;CommunityCards Rank="Nine" Suit="Diamonds" /&gt;
+      &lt;Actions Player="jcloub" Type="Bet" Amount="10" /&gt;
+      &lt;Actions Player="MakelGrus" Type="Call" Amount="10" /&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="10" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Rounds&gt;
+      &lt;CommunityCards Rank="Eight" Suit="Diamonds" /&gt;
+      &lt;Actions Player="jcloub" Type="Bet" Amount="20" /&gt;
+      &lt;Actions Player="MakelGrus" Type="Call" Amount="20" /&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="20" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Rounds&gt;
+      &lt;CommunityCards Rank="Three" Suit="Spades" /&gt;
+      &lt;Actions Player="jcloub" Type="Bet" Amount="20" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Context Online="false" Site="SimulatedPokerSite" Currency="$" ID="1" TimeStamp="2012-12-09T19:03:59.979794-06:00" Format="CashGame" Button="10" BigBlind="10" SmallBlind="5" BettingType="FixedLimit" PokerVariant="TexasHoldEm" /&gt;
+    &lt;Players Name="jcloub" Stack="2044.5" Seat="1" /&gt;
+    &lt;Players Name="MakelGrus" Stack="498" Seat="3" /&gt;
+    &lt;Players Name="Hustler_Ed" Stack="470" Seat="5" /&gt;
+    &lt;Players Name="Shammybaby" Stack="551" Seat="6" /&gt;
+    &lt;Players Name="marine0193" Stack="538" Seat="8" /&gt;
+    &lt;Players Name="TeeJayorTJ5" Stack="484" Seat="10" /&gt;
+    &lt;Rake&gt;0&lt;/Rake&gt;
+    &lt;Hero&gt;MakelGrus&lt;/Hero&gt;
+  &lt;/Hands&gt;
+&lt;/PokerHandXML&gt;
+&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;PokerHandXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Hands&gt;
+    &lt;Blinds Player="jcloub" Type="SmallBlind" Amount="5" /&gt;
+    &lt;Blinds Player="MakelGrus" Type="BigBlind" Amount="10" /&gt;
+    &lt;HoleCards Rank="Six" Suit="Hearts" /&gt;
+    &lt;HoleCards Rank="Six" Suit="Clubs" /&gt;
+    &lt;Rounds&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="10" /&gt;
+      &lt;Actions Player="Shammybaby" Type="Fold" /&gt;
+      &lt;Actions Player="marine0193" Type="Fold" /&gt;
+      &lt;Actions Player="TeeJayorTJ5" Type="Fold" /&gt;
+      &lt;Actions Player="jcloub" Type="Raise" Amount="15" /&gt;
+      &lt;Actions Player="MakelGrus" Type="Call" Amount="10" /&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="10" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Rounds&gt;
+      &lt;CommunityCards Rank="Eight" Suit="Spades" /&gt;
+      &lt;CommunityCards Rank="Four" Suit="Hearts" /&gt;
+      &lt;CommunityCards Rank="Nine" Suit="Diamonds" /&gt;
+      &lt;Actions Player="jcloub" Type="Bet" Amount="10" /&gt;
+      &lt;Actions Player="MakelGrus" Type="Call" Amount="10" /&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="10" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Rounds&gt;
+      &lt;CommunityCards Rank="Eight" Suit="Diamonds" /&gt;
+      &lt;Actions Player="jcloub" Type="Bet" Amount="20" /&gt;
+      &lt;Actions Player="MakelGrus" Type="Call" Amount="20" /&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="20" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Rounds&gt;
+      &lt;CommunityCards Rank="Three" Suit="Spades" /&gt;
+      &lt;Actions Player="jcloub" Type="Bet" Amount="20" /&gt;
+      &lt;Actions Player="MakelGrus" Type="Fold" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Context Online="false" Site="SimulatedPokerSite" Currency="$" ID="1" TimeStamp="2012-12-09T19:03:59.982629-06:00" Format="CashGame" Button="10" BigBlind="10" SmallBlind="5" BettingType="FixedLimit" PokerVariant="TexasHoldEm" /&gt;
+    &lt;Players Name="jcloub" Stack="2044.5" Seat="1" /&gt;
+    &lt;Players Name="MakelGrus" Stack="498" Seat="3" /&gt;
+    &lt;Players Name="Hustler_Ed" Stack="470" Seat="5" /&gt;
+    &lt;Players Name="Shammybaby" Stack="551" Seat="6" /&gt;
+    &lt;Players Name="marine0193" Stack="538" Seat="8" /&gt;
+    &lt;Players Name="TeeJayorTJ5" Stack="484" Seat="10" /&gt;
+    &lt;Rake&gt;0&lt;/Rake&gt;
+    &lt;Hero&gt;Hustler_Ed&lt;/Hero&gt;
+  &lt;/Hands&gt;
+&lt;/PokerHandXML&gt;
+&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;PokerHandXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Hands&gt;
+    &lt;Blinds Player="jcloub" Type="SmallBlind" Amount="5" /&gt;
+    &lt;Blinds Player="MakelGrus" Type="BigBlind" Amount="10" /&gt;
+    &lt;HoleCards Rank="Six" Suit="Hearts" /&gt;
+    &lt;HoleCards Rank="Six" Suit="Clubs" /&gt;
+    &lt;Rounds&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="10" /&gt;
+      &lt;Actions Player="Shammybaby" Type="Fold" /&gt;
+      &lt;Actions Player="marine0193" Type="Fold" /&gt;
+      &lt;Actions Player="TeeJayorTJ5" Type="Fold" /&gt;
+      &lt;Actions Player="jcloub" Type="Raise" Amount="15" /&gt;
+      &lt;Actions Player="MakelGrus" Type="Call" Amount="10" /&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="10" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Rounds&gt;
+      &lt;CommunityCards Rank="Eight" Suit="Spades" /&gt;
+      &lt;CommunityCards Rank="Four" Suit="Hearts" /&gt;
+      &lt;CommunityCards Rank="Nine" Suit="Diamonds" /&gt;
+      &lt;Actions Player="jcloub" Type="Bet" Amount="10" /&gt;
+      &lt;Actions Player="MakelGrus" Type="Call" Amount="10" /&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="10" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Rounds&gt;
+      &lt;CommunityCards Rank="Eight" Suit="Diamonds" /&gt;
+      &lt;Actions Player="jcloub" Type="Bet" Amount="20" /&gt;
+      &lt;Actions Player="MakelGrus" Type="Call" Amount="20" /&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Call" Amount="20" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Rounds&gt;
+      &lt;CommunityCards Rank="Three" Suit="Spades" /&gt;
+      &lt;Actions Player="jcloub" Type="Bet" Amount="20" /&gt;
+      &lt;Actions Player="MakelGrus" Type="Fold" /&gt;
+      &lt;Actions Player="Hustler_Ed" Type="Fold" /&gt;
+    &lt;/Rounds&gt;
+    &lt;Context Online="false" Site="SimulatedPokerSite" Currency="$" ID="1" TimeStamp="2012-12-09T19:03:59.987826-06:00" Format="CashGame" Button="10" BigBlind="10" SmallBlind="5" BettingType="FixedLimit" PokerVariant="TexasHoldEm" /&gt;
+    &lt;Results Player="jcloub"&gt;
+      &lt;HoleCards Rank="Six" Suit="Spades" /&gt;
+      &lt;HoleCards Rank="Jack" Suit="Hearts" /&gt;
+      &lt;WonPots Amount="170" /&gt;
+    &lt;/Results&gt;
+    &lt;Results Player="MakelGrus"&gt;
+      &lt;HoleCards Rank="Three" Suit="Hearts" /&gt;
+      &lt;HoleCards Rank="Five" Suit="Clubs" /&gt;
+    &lt;/Results&gt;
+    &lt;Results Player="Hustler_Ed"&gt;
+      &lt;HoleCards Rank="Six" Suit="Hearts" /&gt;
+      &lt;HoleCards Rank="Six" Suit="Clubs" /&gt;
+    &lt;/Results&gt;
+    &lt;Results Player="Shammybaby"&gt;
+      &lt;HoleCards Rank="King" Suit="Hearts" /&gt;
+      &lt;HoleCards Rank="Eight" Suit="Clubs" /&gt;
+    &lt;/Results&gt;
+    &lt;Results Player="marine0193"&gt;
+      &lt;HoleCards Rank="Five" Suit="Spades" /&gt;
+      &lt;HoleCards Rank="Queen" Suit="Diamonds" /&gt;
+    &lt;/Results&gt;
+    &lt;Results Player="TeeJayorTJ5"&gt;
+      &lt;HoleCards Rank="Jack" Suit="Clubs" /&gt;
+      &lt;HoleCards Rank="Seven" Suit="Clubs" /&gt;
+    &lt;/Results&gt;
+    &lt;Players Name="jcloub" Stack="2044.5" Seat="1" /&gt;
+    &lt;Players Name="MakelGrus" Stack="498" Seat="3" /&gt;
+    &lt;Players Name="Hustler_Ed" Stack="470" Seat="5" /&gt;
+    &lt;Players Name="Shammybaby" Stack="551" Seat="6" /&gt;
+    &lt;Players Name="marine0193" Stack="538" Seat="8" /&gt;
+    &lt;Players Name="TeeJayorTJ5" Stack="484" Seat="10" /&gt;
+    &lt;Rake&gt;0&lt;/Rake&gt;
+    &lt;Hero&gt;Hustler_Ed&lt;/Hero&gt;
+  &lt;/Hands&gt;
+&lt;/PokerHandXML&gt;
+</ConsoleOutput>
+                  <ConsoleError />
+                </UnitTestResult>
               </Results>
               <Tests />
             </TestRecord>
@@ -17669,6 +18694,20 @@ Execution time: 0.09ms</Message>
             </UnitTestResult>
             <UnitTestResult>
               <TestDate>2012-12-09T19:01:36</TestDate>
+              <Passed>3</Passed>
+              <Errors>0</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.09ms</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-12-09T19:03:58</TestDate>
               <Passed>3</Passed>
               <Errors>0</Errors>
               <Failures>0</Failures>
@@ -18259,6 +19298,22 @@ Execution time: 0.04ms</Message>
                   <ConsoleOutput />
                   <ConsoleError />
                 </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-12-09T19:03:58</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.04ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
               </Results>
             </TestRecord>
             <TestRecord Name="TestRiver1">
@@ -18304,6 +19359,22 @@ Collecting river bets
 </ConsoleOutput>
                   <ConsoleError />
                 </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-12-09T19:03:58</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.02ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
               </Results>
             </TestRecord>
             <TestRecord Name="TestRiver2">
@@ -18344,6 +19415,22 @@ Execution time: 0.01ms</Message>
 Collecting turn bets
 Collecting river bets
 </ConsoleOutput>
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-12-09T19:03:58</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
                   <ConsoleError />
                 </UnitTestResult>
               </Results>

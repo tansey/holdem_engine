@@ -91,6 +91,8 @@ namespace holdem_engine
             _potManager = new PotManager(_seats);
 
             _history.CurrentRound = Round.Predeal;
+			if(savedHand.Blinds == null)
+				savedHand.Blinds = new Blind[0];
             if (!restoreBlinds(savedHand))
                 return _history;
             
