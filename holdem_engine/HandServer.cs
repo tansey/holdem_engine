@@ -205,6 +205,7 @@ namespace holdem_engine
 
             int pIdx = GetFirstToAct(_history.CurrentRound == Round.Preflop);
             var aIdx = 0;
+            _history.Hero = pIdx;
 
             //keep getting bets until the round is over
             while (!roundOver && aIdx < savedActions.Length)
