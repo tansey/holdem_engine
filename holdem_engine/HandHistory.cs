@@ -46,6 +46,23 @@ namespace holdem_engine
         public int CurrentBetLevel { get; set; }
         public Round CurrentRound { get; set; }
 
+        public List<Action> CurrentActions
+        {
+            get
+            {
+                switch (CurrentRound)
+                {
+                    case Round.Predeal: return PredealActions;
+                    case Round.Preflop: return PreflopActions;
+                    case Round.Flop: return FlopActions;
+                    case Round.Turn: return TurnActions;
+                    case Round.River: return RiverActions;
+                    default: break;
+                }
+                return null;
+            }
+        }
+
         public ulong Board
         {
             get { return flop | turn | river; }

@@ -29,6 +29,11 @@ namespace holdem_engine
         {
         }
 
+        public Action Validate(Action nextAction)
+        {
+            return _betManager.GetValidatedAction(nextAction);
+        }
+
         public HandHistory Resume(PokerHand savedHand, CachedHand cache)
         {
             _cache = cache;
@@ -205,7 +210,6 @@ namespace holdem_engine
 
             int pIdx = GetFirstToAct(_history.CurrentRound == Round.Preflop);
             var aIdx = 0;
-            _history.Hero = pIdx;
 
             //keep getting bets until the round is over
             while (!roundOver && aIdx < savedActions.Length)
@@ -240,6 +244,7 @@ namespace holdem_engine
 
                 aIdx++;
             }
+            _history.Hero = pIdx;
 
             if (savedActions.Length != aIdx)
                 throw new Exception("Actions left after round over.");
